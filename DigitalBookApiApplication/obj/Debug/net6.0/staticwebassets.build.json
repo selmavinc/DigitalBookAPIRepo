@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eV1BuTvB2LMJg8mTf6EFOsBbCpxh8Wr1uTZXGk8wL84=",
+  "Source": "DigitalBookGateway",
+  "BasePath": "_content/DigitalBookGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

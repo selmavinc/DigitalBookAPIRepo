@@ -1,0 +1,248 @@
+{
+  "Routes": [
+    {
+      //https://localhost:7099/api/Books
+
+      "DownstreamPathTemplate": "/api/Books",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "GET",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7099"
+        }
+      ],
+      "UpstreamPathTemplate": "/Reader/ViewBooks",
+      "UpstreamHttpMethod": [ "Get" ]
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "GatewayAuthenticationKey",
+      //  "AllowedScopes": []
+      //}
+    },
+    {
+      //https://localhost:7124/api/Books
+
+      "DownstreamPathTemplate": "/api/Categories",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "GET",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7124"
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/GetCategory",
+      "UpstreamHttpMethod": [ "Get" ]
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "GatewayAuthenticationKey",
+      //  "AllowedScopes": []
+      //}
+    },
+    {
+      //https://localhost:7124/api/Books
+
+      "DownstreamPathTemplate": "/api/Users",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "GET",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7124"
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/GetUsers",
+      "UpstreamHttpMethod": [ "Get" ]
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "GatewayAuthenticationKey",
+      //  "AllowedScopes": []
+      //}
+    },
+
+    {
+      //https://localhost:7124/api/Books
+
+      "DownstreamPathTemplate": "/api/Users",
+      "DownstreamSchema": "https",
+      "DownstreamHttpMethod": "POST",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7124"
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/Register",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+    //{
+    //  //https://localhost:7099/api/Books/1
+
+    //  "DownstreamPathTemplate": "/api/Books/{id}",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHttpMethod": "GET",
+    //  "RouteIsCaseSensitive": false,
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": "7099"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/Reader/SearchBooks/{id}",
+    //  "UpstreamHttpMethod": [ "Get" ]
+    //  //"AuthenticationOptions": {
+    //  //  "AuthenticationProviderKey": "GatewayAuthenticationKey",
+    //  //  "AllowedScopes": []
+    //  //}
+    //},
+    {
+      //https://localhost:7099/api/Books/1
+
+      "DownstreamPathTemplate": "/api/Books/SearchBooks/{categoryId}/{userId}/{price}",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "GET",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7099"
+        }
+      ],
+      "UpstreamPathTemplate": "/Reader/SearchBooks/{categoryId}/{userId}/{price}",
+      "UpstreamHttpMethod": [ "Get" ]
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "GatewayAuthenticationKey",
+      //  "AllowedScopes": []
+      //}
+    },
+    {
+      //https://localhost:44388/Reader/validate
+
+
+      "DownstreamPathTemplate": "/Validate",
+      "DownstreamSchema": "https",
+      "DownstreamHttpMethod": "POST",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7285"
+        }
+      ],
+      "UpstreamPathTemplate": "/Login",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+    {
+      //https://localhost:7099/api/Books
+
+      "DownstreamPathTemplate": "/api/AuthorBooks",
+      "DownstreamSchema": "https",
+      "DownstreamHttpMethod": "POST",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7182"
+        }
+      ],
+      "UpstreamPathTemplate": "/Author/CreateBooks",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+    {
+      //https://localhost:7099/api/AuthorBooks/1
+
+      "DownstreamPathTemplate": "/api/AuthorBooks/UpdateBook/{id}/{userId}",
+      "DownstreamSchema": "https",
+      "DownstreamHttpMethod": "PUT",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7182"
+        }
+      ],
+      "UpstreamPathTemplate": "/Author/ModifyBook/{id}/{userId}",
+      "UpstreamHttpMethod": [ "Put" ]
+
+    },
+    {
+      //https://localhost:7099/api/AuthorBooks/1
+
+      "DownstreamPathTemplate": "/api/AuthorBooks/{id}",
+      "DownstreamSchema": "https",
+      "DownstreamHttpMethod": "DELETE",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7182"
+        }
+      ],
+      "UpstreamPathTemplate": "/Author/DeleteBook/{id}",
+      "UpstreamHttpMethod": [ "Delete" ]
+
+    },
+    {
+      //https://localhost:7099/api/AuthorBooks/1
+
+      "DownstreamPathTemplate": "/api/AuthorBooks/BlockBook/{id}/{userId}",
+      "DownstreamSchema": "https",
+      "DownstreamHttpMethod": "PUT",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7182"
+        }
+      ],
+      "UpstreamPathTemplate": "/Author/BlockBook/{id}/{userId}",
+      "UpstreamHttpMethod": [ "Put" ]
+
+    },
+    {
+      //https://localhost:7099/api/AuthorBooks/1
+
+      "DownstreamPathTemplate": "/api/AuthorBooks/UnBlockBook/{id}/{userId}",
+      "DownstreamSchema": "https",
+      "DownstreamHttpMethod": "PUT",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7182"
+        }
+      ],
+      "UpstreamPathTemplate": "/Author/UnBlockBook/{id}/{userId}",
+      "UpstreamHttpMethod": [ "Put" ]
+
+    },
+    {
+      //https://localhost:7182/api/AuthorBooks
+
+      "DownstreamPathTemplate": "/api/AuthorBooks",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "GET",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7182"
+        }
+      ],
+      "UpstreamPathTemplate": "/Author/ViewBooks",
+      "UpstreamHttpMethod": [ "Get" ]
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "GatewayAuthenticationKey",
+      //  "AllowedScopes": []
+      //}
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44388"
+  }
+}
