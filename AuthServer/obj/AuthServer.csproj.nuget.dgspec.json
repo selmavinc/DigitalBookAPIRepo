@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Practice\\AuthServer\\AuthServer.csproj": {}
+    "D:\\Training\\DigitalBookAPIRepo\\AuthServer\\AuthServer.csproj": {}
   },
   "projects": {
-    "C:\\Practice\\AuthServer\\AuthServer.csproj": {
+    "D:\\Training\\DigitalBookAPIRepo\\AuthServer\\AuthServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Practice\\AuthServer\\AuthServer.csproj",
+        "projectUniqueName": "D:\\Training\\DigitalBookAPIRepo\\AuthServer\\AuthServer.csproj",
         "projectName": "AuthServer",
-        "projectPath": "C:\\Practice\\AuthServer\\AuthServer.csproj",
+        "projectPath": "D:\\Training\\DigitalBookAPIRepo\\AuthServer\\AuthServer.csproj",
         "packagesPath": "C:\\Users\\cogdotnet1686\\.nuget\\packages\\",
-        "outputPath": "C:\\Practice\\AuthServer\\obj\\",
+        "outputPath": "D:\\Training\\DigitalBookAPIRepo\\AuthServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

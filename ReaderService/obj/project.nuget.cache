@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9cPOI9oeOeUl5DVeO5w7mSD+OvPLwRusGGj/GwX5WYXJ1vZ9GH0Jfy2VcgyhauhMLI8LgPT8Zz9rM4xmJhidKw==",
+  "dgSpecHash": "NHRpw6Kbgy7wFPLbGk504WhAEaN1/0KEcCMAkKt1f2fHjjwmTsdg5JSHE2022nqKHdqM0y+4yC2r4LbKKSHpmQ==",
   "success": true,
-  "projectFilePath": "C:\\Practice\\ReaderService\\ReaderService.csproj",
+  "projectFilePath": "D:\\Training\\DigitalBookAPIRepo\\ReaderService\\ReaderService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cogdotnet1686\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\cogdotnet1686\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

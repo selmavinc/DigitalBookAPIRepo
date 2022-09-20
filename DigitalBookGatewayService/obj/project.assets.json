@@ -731,11 +731,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Practice\\DigitalBookGatewayService\\DigitalBookGatewayService.csproj",
+      "projectUniqueName": "D:\\Training\\DigitalBookAPIRepo\\DigitalBookGatewayService\\DigitalBookGatewayService.csproj",
       "projectName": "DigitalBookGatewayService",
-      "projectPath": "C:\\Practice\\DigitalBookGatewayService\\DigitalBookGatewayService.csproj",
+      "projectPath": "D:\\Training\\DigitalBookAPIRepo\\DigitalBookGatewayService\\DigitalBookGatewayService.csproj",
       "packagesPath": "C:\\Users\\cogdotnet1686\\.nuget\\packages\\",
-      "outputPath": "C:\\Practice\\DigitalBookGatewayService\\obj\\",
+      "outputPath": "D:\\Training\\DigitalBookAPIRepo\\DigitalBookGatewayService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -112,6 +114,9 @@ namespace ReaderService.Controllers
                 purchase.PurchaseDate = Convert.ToDateTime(DateTime.Now.ToString("yyyy-MM-dd"));
                 purchase.PaymentMode = "Online";
                 _context.Purchases.Add(purchase);
+
+                
+                
             }
             else
             {
@@ -121,6 +126,15 @@ namespace ReaderService.Controllers
             try
             {
                 await _context.SaveChangesAsync();
+                bool result = purchase.callPaymentAuzreFunPost();
+
+
+
+                if (result)
+                    return Ok(new { message = "Purchased Successfully" });
+                else
+                    //return BadRequest("Something went wrong");
+                    return BadRequest(new { message = "Something went wrong" });
             }
             catch (DbUpdateException)
             {
@@ -137,6 +151,8 @@ namespace ReaderService.Controllers
             //return CreatedAtAction("GetPurchase", new { id = purchase.PurchaseId }, purchase);
             return Ok(new { message = "Purchased Successfully" });
         }
+
+       
 
         [HttpGet("GetpurchaseHistory/{emailId}")]
         //[Route("SearchBook/{categoryId}/{Author}/{price}")]

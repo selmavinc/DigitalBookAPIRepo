@@ -137,6 +137,26 @@
       //  "AllowedScopes": []
       //}
     },
+    //{
+    //  //https://localhost:7099/api/Books/SearchBook/1/1/5.5
+
+    //  "DownstreamPathTemplate": "/api/purchase",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHttpMethod": "POST",
+    //  "RouteIsCaseSensitive": false,
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": "7007"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/Purchases/buybook",
+    //  "UpstreamHttpMethod": [ "Post" ]
+    //  //"AuthenticationOptions": {
+    //  //  "AuthenticationProviderKey": "GatewayAuthenticationKey",
+    //  //  "AllowedScopes": []
+    //  //}
+    //},
     {
       //https://localhost:7099/api/Books/SearchBook/1/1/5.5
 

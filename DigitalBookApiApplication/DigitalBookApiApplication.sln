@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserRegistartion", "..\User
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalBookGatewayService", "..\DigitalBookGatewayService\DigitalBookGatewayService.csproj", "{9B27674B-39BB-4A4B-B717-5219C14D115A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentFunctionApp", "PaymentFunctionApp\PaymentFunctionApp.csproj", "{50308B1D-D499-4041-83C3-53F2906EAC4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9B27674B-39BB-4A4B-B717-5219C14D115A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B27674B-39BB-4A4B-B717-5219C14D115A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B27674B-39BB-4A4B-B717-5219C14D115A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50308B1D-D499-4041-83C3-53F2906EAC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50308B1D-D499-4041-83C3-53F2906EAC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50308B1D-D499-4041-83C3-53F2906EAC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50308B1D-D499-4041-83C3-53F2906EAC4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

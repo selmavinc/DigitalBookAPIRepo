@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VKM64+ez4edrELszq8Km8BDOLNCZo+11mjnJHBoQBY0J/E0M/9KGCsHNUhqY9i5VsQ+S0hUsshfd7HUEaX6+Gg==",
+  "dgSpecHash": "AD0FZBtN+key817P/KjufvKzAusTH7fhe3MoMkLDqahQZo6G5cU92CpEmp9NzhONtYECv7gbn8L6MowDuDaolA==",
   "success": true,
-  "projectFilePath": "C:\\Practice\\AuthServer\\AuthServer.csproj",
+  "projectFilePath": "D:\\Training\\DigitalBookAPIRepo\\AuthServer\\AuthServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cogdotnet1686\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\cogdotnet1686\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

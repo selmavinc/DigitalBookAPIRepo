@@ -10147,11 +10147,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Practice\\ReaderService\\ReaderService.csproj",
+      "projectUniqueName": "D:\\Training\\DigitalBookAPIRepo\\ReaderService\\ReaderService.csproj",
       "projectName": "ReaderService",
-      "projectPath": "C:\\Practice\\ReaderService\\ReaderService.csproj",
+      "projectPath": "D:\\Training\\DigitalBookAPIRepo\\ReaderService\\ReaderService.csproj",
       "packagesPath": "C:\\Users\\cogdotnet1686\\.nuget\\packages\\",
-      "outputPath": "C:\\Practice\\ReaderService\\obj\\",
+      "outputPath": "D:\\Training\\DigitalBookAPIRepo\\ReaderService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

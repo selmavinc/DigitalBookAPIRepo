@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Practice\\UserRegistartion\\UserRegistartion.csproj": {}
+    "D:\\Training\\DigitalBookAPIRepo\\UserRegistartion\\UserRegistartion.csproj": {}
   },
   "projects": {
-    "C:\\Practice\\UserRegistartion\\UserRegistartion.csproj": {
+    "D:\\Training\\DigitalBookAPIRepo\\UserRegistartion\\UserRegistartion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Practice\\UserRegistartion\\UserRegistartion.csproj",
+        "projectUniqueName": "D:\\Training\\DigitalBookAPIRepo\\UserRegistartion\\UserRegistartion.csproj",
         "projectName": "UserRegistartion",
-        "projectPath": "C:\\Practice\\UserRegistartion\\UserRegistartion.csproj",
+        "projectPath": "D:\\Training\\DigitalBookAPIRepo\\UserRegistartion\\UserRegistartion.csproj",
         "packagesPath": "C:\\Users\\cogdotnet1686\\.nuget\\packages\\",
-        "outputPath": "C:\\Practice\\UserRegistartion\\obj\\",
+        "outputPath": "D:\\Training\\DigitalBookAPIRepo\\UserRegistartion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
