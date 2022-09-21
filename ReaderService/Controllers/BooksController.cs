@@ -24,13 +24,51 @@ namespace ReaderService.Controllers
 
         // GET: api/Books
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Book>>> GetBooks()
+        public async Task<ActionResult<IEnumerable<bookList>>> GetBooks()
         {
           if (_context.Books == null)
           {
               return NotFound();
           }
-            return await _context.Books.Where(c => c.Active == true).ToListAsync();
+            //return await _context.Books.Where(c => c.Active == true).ToListAsync();
+            var book = (from t1 in _context.Books.Where(y => y.Active == true).DefaultIfEmpty()
+                        from t3 in _context.Categories.Where(z => z.CategoryId == t1.CategoryId).DefaultIfEmpty()
+                        from t4 in _context.Users.Where(z => z.UserId == t1.UserId).DefaultIfEmpty()
+                        select new
+                        {
+                            BookId = t1.BookId,
+                            BookName = t1.BookName,
+                            Author = t4.FirstName + " " + t4.LastName,
+                            Publisher = t1.Publisher,
+                            Price = t1.Price,
+                            PublishedDate = t1.PublishedDate,
+                            CategoryName = t3.CategoryName,
+                            Description = t1.Description
+                            //EmailId = purchase.EmailId == null? "NA" : purchase.EmailId
+                        })
+                                       .Select(x => new bookList()
+                                       {
+                                           BookId = x.BookId,
+                                           BookName = x.BookName,
+                                           Author = x.Author,
+                                           Publisher = x.Publisher,
+                                           Price = x.Price,
+                                           PublishedDate = x.PublishedDate,
+                                           CategoryName = x.CategoryName,
+                                           Description = x.Description
+                                       }).ToList();
+            if (book == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                //foreach (var item in book)
+                //{
+                //    item.User = null;
+                //}
+            }
+            return book;
         }
 
         //// GET: api/Books/5

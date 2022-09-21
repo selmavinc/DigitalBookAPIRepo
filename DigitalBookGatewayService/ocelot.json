@@ -1,25 +1,25 @@
 {
   "Routes": [
-    //{
-    //  //https://localhost:7099/api/Books
+    {
+      //https://localhost:7099/api/Books
 
-    //  "DownstreamPathTemplate": "/api/Books",
-    //  "DownstreamScheme": "https",
-    //  "DownstreamHttpMethod": "GET",
-    //  "RouteIsCaseSensitive": false,
-    //  "DownstreamHostAndPorts": [
-    //    {
-    //      "Host": "localhost",
-    //      "Port": "7099"
-    //    }
-    //  ],
-    //  "UpstreamPathTemplate": "/Reader/ViewBooks",
-    //  "UpstreamHttpMethod": [ "Get" ]
-    //  //"AuthenticationOptions": {
-    //  //  "AuthenticationProviderKey": "GatewayAuthenticationKey",
-    //  //  "AllowedScopes": []
-    //  //}
-    //},
+      "DownstreamPathTemplate": "/api/Books",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "GET",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7099"
+        }
+      ],
+      "UpstreamPathTemplate": "/Reader/ViewBooks",
+      "UpstreamHttpMethod": [ "Get" ]
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "GatewayAuthenticationKey",
+      //  "AllowedScopes": []
+      //}
+    },
     {
       //https://localhost:7124/api/Books
 
