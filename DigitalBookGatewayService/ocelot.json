@@ -21,7 +21,7 @@
       //}
     },
     {
-      //https://localhost:7124/api/Books
+      //https://localhost:7124/api/Categories
 
       "DownstreamPathTemplate": "/api/Categories",
       "DownstreamScheme": "https",
@@ -41,7 +41,7 @@
       //}
     },
     {
-      //https://localhost:7124/api/Books
+      //https://localhost:7124/api/RoleMasters
 
       "DownstreamPathTemplate": "/api/RoleMasters",
       "DownstreamScheme": "https",
@@ -61,7 +61,7 @@
       //}
     },
     {
-      //https://localhost:7124/api/Books
+      //https://localhost:7124/api/Users
 
       "DownstreamPathTemplate": "/api/Users",
       "DownstreamScheme": "https",
@@ -81,7 +81,7 @@
       //}
     },
     {
-      //https://localhost:7124/api/Books
+      //https://localhost:7124/api/Users
 
       "DownstreamPathTemplate": "/api/Users",
       "DownstreamSchema": "https",
@@ -118,7 +118,7 @@
     //  //}
     //},
     {
-      //https://localhost:7099/api/Books/SearchBook/1/1/5.5
+      //https://localhost:7099/api/Purchases
 
       "DownstreamPathTemplate": "/api/Purchases",
       "DownstreamScheme": "https",
@@ -138,7 +138,7 @@
       //}
     },
     //{
-    //  //https://localhost:7099/api/Books/SearchBook/1/1/5.5
+    //  
 
     //  "DownstreamPathTemplate": "/api/purchase",
     //  "DownstreamScheme": "http",
@@ -178,7 +178,7 @@
       //}
     },
     {
-      //https://localhost:7099/api/Books/SearchBook/1/1/5.5
+      //https://localhost:7099/api/Books/GetBookList/meera@gmail.com
 
       "DownstreamPathTemplate": "/api/Books/GetBookList/{emailId}",
       "DownstreamScheme": "https",
@@ -198,7 +198,7 @@
       //}
     },
     {
-      //https://localhost:7099/api/Books/SearchBook/1/1/5.5
+      //https://localhost:7099/api/Purchases/GetpurchaseHistory/meera@gmail.com
 
       "DownstreamPathTemplate": "/api/Purchases/GetpurchaseHistory/{emailId}",
       "DownstreamScheme": "https",
@@ -218,7 +218,7 @@
       //}
     },
     {
-      //https://localhost:7099/api/Books/SearchBook/1/1/5.5
+      //https://localhost:7099/api/Purchases/GetBookName/meera@gmail.com
 
       "DownstreamPathTemplate": "/api/Purchases/GetBookName/{bookId}",
       "DownstreamScheme": "https",
@@ -238,7 +238,7 @@
       //}
     },
     {
-      //https://localhost:44388/Reader/validate
+      //https://localhost:7285/Validate
 
 
       "DownstreamPathTemplate": "/Validate",
@@ -256,7 +256,7 @@
 
     },
     {
-      //https://localhost:7099/api/Books
+      //https://localhost:7182/api/AuthorBooks
 
       "DownstreamPathTemplate": "/api/AuthorBooks",
       "DownstreamSchema": "https",
@@ -273,7 +273,7 @@
 
     },
     {
-      //https://localhost:7099/api/AuthorBooks/1
+      //https://localhost:7182/api/AuthorBooks/UpdateBook/1/5
 
       "DownstreamPathTemplate": "/api/AuthorBooks/UpdateBook/{id}/{userId}",
       "DownstreamSchema": "https",
@@ -290,7 +290,7 @@
 
     },
     {
-      //https://localhost:7099/api/AuthorBooks/1
+      //https://localhost:7182/api/AuthorBooks/1
 
       "DownstreamPathTemplate": "/api/AuthorBooks/{id}",
       "DownstreamSchema": "https",
@@ -307,7 +307,7 @@
 
     },
     {
-      //https://localhost:7099/api/AuthorBooks/1
+      //https://localhost:7182/api/AuthorBooks/BlockBook/1/5
 
       "DownstreamPathTemplate": "/api/AuthorBooks/BlockBook/{id}/{userId}",
       "DownstreamSchema": "https",
@@ -324,7 +324,7 @@
 
     },
     {
-      //https://localhost:7099/api/Books/SearchBook/1/1/5.5
+      //https://localhost:7182/api/AuthorBooks/SearchBook/1/1/5.5
 
       "DownstreamPathTemplate": "/api/AuthorBooks/SearchBook/{categoryId}/{Author}/{price}",
       "DownstreamScheme": "https",
@@ -344,7 +344,7 @@
       //}
     },
     {
-      //https://localhost:7099/api/AuthorBooks/1
+      //https://localhost:7182/api/AuthorBooks/UnBlockBook/1/5
 
       "DownstreamPathTemplate": "/api/AuthorBooks/UnBlockBook/{id}/{userId}",
       "DownstreamSchema": "https",
@@ -361,7 +361,7 @@
 
     },
     {
-      //https://localhost:7182/api/AuthorBooks
+      //https://localhost:7182/api/AuthorBooks/1
 
       "DownstreamPathTemplate": "/api/AuthorBooks/{id}",
       "DownstreamScheme": "https",

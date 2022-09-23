@@ -112,7 +112,7 @@ namespace ReaderService.Controllers
                 //    userId = userlist.Select(x => x.UserId).FirstOrDefault();
                 purchase.PurchaseId = Convert.ToInt32(purchaseId) + 1;
                 purchase.PurchaseDate = Convert.ToDateTime(DateTime.Now.ToString("yyyy-MM-dd"));
-                purchase.PaymentMode = "Online";
+                //purchase.PaymentMode = "Online";
                 _context.Purchases.Add(purchase);
 
                 
